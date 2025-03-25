@@ -1,4 +1,4 @@
-import { Text } from '@playwright/test';
+import { text } from '@playwright/test';
 test('Open browser',async ({page})=>{
     
 await page.goto('https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5km84u9k2k_e&adgrpid=155259813113&hvpone=&hvptwo=&hvadid=674842289479&hvpos=&hvnetw=g&hvrand=10144463994420963399&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061686&hvtargid=kwd-304880464215&hydadcr=14450_2316420&gad_source=1');
